@@ -22,7 +22,7 @@ int main (int argc,char **argv)
 
         char **chunk = malloc( (j+1)* sizeof(char*));
 
-int sum = 0;
+	int sum = 0;
         for (int i = 0;i<j;i++)
         {
                 printf(",%d %d %c\n",i,comma_array[i],token[comma_array[i]]);
